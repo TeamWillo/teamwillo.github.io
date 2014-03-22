@@ -295,12 +295,18 @@ body {
 		h1, h2 {
 			color: @white;
 			.text-shadow(0 2px 4px rgba(0,0,0,.85));
+			@media @480px {
+				display: none;
+			}
 		}
 	}
 }
 #map_canvas{
 	width: 100%;
 	height: 452px;
+	@media 	@480px {
+		height: 100px; 
+	}		
 	@media 	@600px {
 		height: 250px; 
 	}
