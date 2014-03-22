@@ -1,29 +1,22 @@
-title:            Site Title
-description:      Describe your website.
+title:            Team Willo
+description:      The team that works for you.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
+url:              http://lannisport-rails-73828.use1.nitrousbox.com:4000
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Team Willo 
   avatar:         bio-photo.jpg
-  bio:            "Describe your self."
-  email:          your@email.com
+  bio:            "Media Solutions. Creative Development. Business Strategy"
+  email:          winston@teamwillo.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
-  stackoverflow: 
-  linkedin:       
-  instagram:      
-  lastfm:         
-  tumblr: 
-  pinterest: 
-  foursquare: 
-  steam: 
-  dribbble: 
+  twitter: https://twitter.com/teamwillo      
+  facebook: https://www.facebook.com/teamwilloproductions     
+  github: https://github.com/willojnr77        
+  stackoverflow: http://stackoverflow.com/users/3291728/willo-jnr
+  linkedin: http://http://www.linkedin.com/company/team-willo-productions
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:
+  google_plus: google.com/+winstonwillo
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
@@ -38,14 +31,11 @@ links:
     url: /about/
   - title: Posts
     url: /posts/
-  - title: Theme Setup
-    url: /theme-setup/
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+  - title: Contact
+    url: /contact/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    EST
 future:      true
 pygments:    true
 markdown:    kramdown

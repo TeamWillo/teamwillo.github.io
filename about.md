@@ -1,29 +1,68 @@
 ---
 layout: page
 permalink: /about/
-title: About the Theme
-tagline: Minimal Mistakes, a Jekyll Theme
-tags: [about, Jekyll, theme, responsive]
-modified: 9-9-2013
+title: About Us
+tagline: Our Mission and who we are
+tags: [about, Team Willo, Productions]
+modified: 3-16-2014
 image:
   feature: texture-feature-02.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
+  credit: Gareth Cobran (right) of ID Studios, seen here shooting a Tarrus Riley Video
 ---
+### You see it in your head...
+...but how do you get it on TV, the internet, in magazines and on billboards. 
 
-Jekyll is pretty rad and figured releasing a cleaned up version of [my site](http://mademistakes.com)[^1] as a theme for others to hack and build on would be fun. So here be that theme --- I call it **Minimal Mistakes**, a responsive Jekyll theme with large featured images and solid typography. 
+Agencies are expensive and The creatives don't get that you're running a business.
 
-## Minimal Mistakes is all about:
+### We are a group of creatives that made it our business to understand your business. 
+We offer access to the network of the best media practitioners out there, by acting as interpreters of business-speak, creative speak and technical speak.
+In the end, you get what you want, and creatives get to be creatives
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments --- content first.
-* Large feature images for posts and pages.
-* Author sidebar to pimp your bio, photo[^2], and social media links.
-* Simple and clear permalink structure *(ie: domain.com/category/post-title)*
+### Check out our ad.
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+<figure><iframe width="560" height="315" src="//www.youtube.com/embed/GdxEq8ednUA" frameborder="0" allowfullscreen></iframe></figure>
 
-[^1]: Since open sourcing this theme I have released a couple other Jekyll themes. My website [Made Mistakes](http://mademistakes.com) is currently using a modified version of my [So Simple Theme](http://mmistakes.github.io/so-simple-theme/).
+## Who we are:
 
-[^2]: Fancy avatars provided by [Brandon Mathis](http://brandonmathis.com/projects/fancy-avatars/demo/) under a [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
+### Winston Wilkins
+
+#### Corporate Strategy and Product Development
+
+![Winston Wilkins]({{ site.url }}/images/2013/08/winston.jpg) 
+{: .team-image-pull-left}
+
+Winston has training in Engineering and Post Graduate Social Entrepreneurship, but he is best known for his Media Production and Illustration skills. Winston now develops media products that solves problems in various industries.
+{: .clearfix}
+
+### Tony Thompson
+
+#### Corporate Sales, Marketing and Business Development
+
+![Tony Thompson]({{ site.url }}/images/2013/08/tony.jpg)  
+{: .team-image-pull-left}
+
+Bsc. (Math), Post-Graduate Diplomas in Television Production and Broadcast. Tony has over 25 yrs experience in International Multimedia Project Management and has brought his know-how to Team Willo in Marketing and Business Strategy.
+{: .clearfix}
+
+### Wesley Wilkins
+
+#### Music Division Operations and Product Development 
+
+![Wesley Wilkins]({{ site.url }}/images/2013/11/wesley.jpg) 
+{: .team-image-pull-left}
+
+
+Wesley brings music development experience to the team and has worked with renowned recording artists such as Buju Banton, Tony Rebel, Sizzla Colonji, and many others. He has won awards for his work and has written and composed songs for prominent albums. Wesley is responsible for creating products for our music distribution channels
+{: .clearfix}
+
+### Janelle Dyer
+
+#### Entertainment Sales and Relations
+
+![Janelle Dyer]({{ site.url }}/images/2013/08/janelle.jpg) 
+{: .team-image-pull-left}
+
+A long time collaborator with Team Willo Productions, Janelle has been responsible for maintaining client relationships with the biggest players in the Caribbean Entertainment Industry. She is currently pursuing a film degree at Full Sail University
+{: .clearfix}
+
+

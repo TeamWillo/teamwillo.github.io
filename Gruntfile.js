@@ -36,30 +36,6 @@ module.exports = function(grunt) {
         }
       }
     },
-    imagemin: {
-      dist: {
-        options: {
-          optimizationLevel: 7,
-          progressive: true
-        },
-        files: [{
-          expand: true,
-          cwd: 'images/',
-          src: '{,*/}*.{png,jpg,jpeg}',
-          dest: 'images/'
-        }]
-      }
-    },
-    svgmin: {
-      dist: {
-        files: [{
-          expand: true,
-          cwd: 'images/',
-          src: '{,*/}*.svg',
-          dest: 'images/'
-        }]
-      }
-    },
     watch: {
       less: {
         files: [
@@ -88,16 +64,16 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-recess');
-  grunt.loadNpmTasks('grunt-contrib-imagemin');
-  grunt.loadNpmTasks('grunt-svgmin');
+ // grunt.loadNpmTasks('grunt-contrib-imagemin');
+ //grunt.loadNpmTasks('grunt-svgmin');
 
   // Register tasks
   grunt.registerTask('default', [
     'clean',
     'recess',
-    'uglify',
-    'imagemin',
-    'svgmin'
+    'uglify'//,
+ //   'imagemin',
+ //   'svgmin'
   ]);
   grunt.registerTask('dev', [
     'watch'

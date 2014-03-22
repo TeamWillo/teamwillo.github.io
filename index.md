@@ -1,9 +1,10 @@
 ---
 layout: home
-description: "A responsive Jekyll theme with editorial tendencies by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+description: "Team Willo a network of the right people for your next project."
+tags: [Jekyll, Team Willo, Productions, video]
 image:
   feature: texture-feature-01.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
+  credit: Kimberly Patterson (right) doing make-up on model, Lijae Perry
+  creditlink: https://www.facebook.com/MakeupByKimberlyPatterson
 ---
+
