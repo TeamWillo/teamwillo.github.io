@@ -285,6 +285,10 @@ body {
 		position: absolute;
 		bottom: 25px;
 		.prefix(12,1);
+		
+		@media 	@420px {
+			display: none; 
+		}	
 		@media @600px {
 			left: 25%;
 			margin-left: 0;
@@ -301,6 +305,9 @@ body {
 #map_canvas{
 	width: 100%;
 	height: 452px;
+	@media 	@480px {
+		height: 150px; 
+	}
 	@media 	@600px {
 		height: 250px; 
 	}
