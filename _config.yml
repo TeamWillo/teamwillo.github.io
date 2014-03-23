@@ -10,13 +10,13 @@ owner:
   bio:            "Media Solutions. Creative Development. Business Strategy"
   email:          winston@teamwillo.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: https://twitter.com/teamwillo      
-  facebook: https://www.facebook.com/teamwilloproductions     
-  github: https://github.com/willojnr77        
-  stackoverflow: http://stackoverflow.com/users/3291728/willo-jnr
-  linkedin: http://http://www.linkedin.com/company/team-willo-productions
+  twitter: teamwillo      
+  facebook: teamwilloproductions     
+  github: willojnr77        
+  stackoverflow: 3291728/willo-jnr
+  linkedin: company/team-willo-productions
   # For Google Authorship https://plus.google.com/authorship
-  google_plus: google.com/+winstonwillo
+  google_plus: https://plus.google.com/+winstonwillo
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
