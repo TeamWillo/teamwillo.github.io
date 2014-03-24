@@ -27,6 +27,13 @@ task :new_post, :title do |t, args|
   end
   category = get_stdin("Enter category name to group your post in (leave blank for none): ")
   tags = get_stdin("Enter tags to classify your post (comma separated): ")
+  feature = get_stdin("Enter filename you want to use as feature (in <images> folder - 2048px x 512px. Leave blank for none): ")
+  if File.exist?(feature)
+	credit = get_stdin("Enter photo credit:")
+	creditlink = get_stdin("Enter credit link(Leave blank if none):")
+  else
+	feature = ""
+  end
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
@@ -36,9 +43,9 @@ task :new_post, :title do |t, args|
     post.puts "category: [#{category}]"
     post.puts "tags: [#{tags}]"
     post.puts "image:"
-    post.puts "  feature: "
-    post.puts "  credit: "
-    post.puts "  creditlink: "
+    post.puts "  feature: #{feature} "
+    post.puts "  credit: #{credit}"
+    post.puts "  creditlink: #{creditlink}"
     post.puts "comments: "
     post.puts "share: "
     post.puts "---"
@@ -58,6 +65,13 @@ task :new_page, :title do |t, args|
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
   tags = get_stdin("Enter tags to classify your page (comma separated): ")
+  feature = get_stdin("Enter filename you want to use as feature (in <images> folder - 2048px x 512px. Leave blank for none): ")
+  if File.exist?(feature)
+	credit = get_stdin("Enter photo credit:")
+	creditlink = get_stdin("Enter credit link(Leave blank if none):")
+  else 
+	feature = ""
+  end
   puts "Creating new page: #{filename}"
   open(filename, 'w') do |page|
     page.puts "---"
@@ -67,13 +81,32 @@ task :new_page, :title do |t, args|
     page.puts "modified: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
     page.puts "tags: [#{tags}]"
     page.puts "image:"
-    page.puts "  feature: "
-    page.puts "  credit: "
-    page.puts "  creditlink: "
+    page.puts "  feature: #{feature} "
+    page.puts "  credit: #{credit} "
+    page.puts "  creditlink: #{creditlink}"
     page.puts "share: "
     page.puts "---"
   end
 end
+##############################
+# SENDING THE SITE TO GITHUB #
+##############################
+
+# usage rake commit
+desc "Commit _site/"
+task :commit do
+  puts "\n## Staging modified files"
+  status = system("git add -A .")
+  puts status ? "Success" : "Failed"
+  puts "\n## Committing a site build at #{Time.now.utc}"
+  message = "Build site at #{Time.now.utc}"
+  status = system("git commit -m \"#{message}\"")
+  puts status ? "Success" : "Failed"
+  puts "\n## Pushing commits to teamwillo.github.io"
+  status = system("git push origin master")
+  puts status ? "Success" : "Failed"
+end
+
 
 def get_stdin(message)
   print message
