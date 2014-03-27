@@ -7,6 +7,7 @@ require "stringex"
 posts_dir       = "_posts"    # directory for blog files
 new_post_ext    = "md"  # default new post file extension when using the new_post task
 new_page_ext    = "md"  # default new page file extension when using the new_page task
+feature 	= ""#initialize feature
 
 
 #############################
@@ -27,11 +28,15 @@ task :new_post, :title do |t, args|
   end
   category = get_stdin("Enter category name to group your post in (leave blank for none): ")
   tags = get_stdin("Enter tags to classify your post (comma separated): ")
-  feature = get_stdin("Enter filename you want to use as feature (in <images> folder - 2048px x 512px. Leave blank for none): ")
+  feat = get_stdin("Enter filename you want to use as feature (in <images> folder - 2048px x 512px. Leave blank for none): ")
+  feature = "images/#{Time.now.strftime('%Y/%m')}/#{feat}.jpg"
+  puts feature
   if File.exist?(feature)
+	puts "file does exist"
 	credit = get_stdin("Enter photo credit:")
 	creditlink = get_stdin("Enter credit link(Leave blank if none):")
   else
+	puts "file does not exist"
 	feature = ""
   end
   puts "Creating new post: #{filename}"
@@ -65,12 +70,16 @@ task :new_page, :title do |t, args|
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
   tags = get_stdin("Enter tags to classify your page (comma separated): ")
-  feature = get_stdin("Enter filename you want to use as feature (in <images> folder - 2048px x 512px. Leave blank for none): ")
+  feat = get_stdin("Enter filename you want to use as feature (in <images> folder - 2048px x 512px. Leave blank for none): ")
+  feature = "images/#{Time.now.strftime('%Y/%m')}/#{feat}.jpg"
+  puts feature
   if File.exist?(feature)
+	puts "file does exist"
 	credit = get_stdin("Enter photo credit:")
 	creditlink = get_stdin("Enter credit link(Leave blank if none):")
   else 
-	feature = ""
+	puts "file does not exist."
+  	feature = ""
   end
   puts "Creating new page: #{filename}"
   open(filename, 'w') do |page|
