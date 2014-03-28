@@ -23,20 +23,18 @@ task :new_post, :title do |t, args|
     title = get_stdin("Enter a title for your post: ")
   end
   filename = "#{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
+  puts filename
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
   category = get_stdin("Enter category name to group your post in (leave blank for none): ")
   tags = get_stdin("Enter tags to classify your post (comma separated): ")
   feat = get_stdin("Enter filename you want to use as feature (in <images> folder - 2048px x 512px. Leave blank for none): ")
-  feature = "images/#{Time.now.strftime('%Y/%m')}/#{feat}.jpg"
-  puts feature
+  feature = "images/#{Time.now.strftime('%Y/%m')}/#{feat}"
   if File.exist?(feature)
-	puts "file does exist"
 	credit = get_stdin("Enter photo credit:")
 	creditlink = get_stdin("Enter credit link(Leave blank if none):")
   else
-	puts "file does not exist"
 	feature = ""
   end
   puts "Creating new post: #{filename}"
@@ -45,7 +43,7 @@ task :new_post, :title do |t, args|
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "modified: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"
-    post.puts "category: [#{category}]"
+    post.puts "category: #{category}"
     post.puts "tags: [#{tags}]"
     post.puts "image:"
     post.puts "  feature: #{feature} "
@@ -71,7 +69,7 @@ task :new_page, :title do |t, args|
   end
   tags = get_stdin("Enter tags to classify your page (comma separated): ")
   feat = get_stdin("Enter filename you want to use as feature (in <images> folder - 2048px x 512px. Leave blank for none): ")
-  feature = "images/#{Time.now.strftime('%Y/%m')}/#{feat}.jpg"
+  feature = "images/#{Time.now.strftime('%Y/%m')}/#{feat}"
   puts feature
   if File.exist?(feature)
 	puts "file does exist"
