@@ -30,7 +30,7 @@ task :new_post, :title do |t, args|
   category = get_stdin("Enter category name to group your post in (leave blank for none): ")
   tags = get_stdin("Enter tags to classify your post (comma separated): ")
   feat = get_stdin("Enter filename you want to use as feature (in <images> folder - 2048px x 512px. Leave blank for none): ")
-  feature = "images/#{Time.now.strftime('%Y/%m')}/#{feat}"
+  feature = "#{Time.now.strftime('%Y/%m')}/#{feat}"
   if File.exist?(feature)
 	credit = get_stdin("Enter photo credit:")
 	creditlink = get_stdin("Enter credit link(Leave blank if none):")
@@ -69,7 +69,7 @@ task :new_page, :title do |t, args|
   end
   tags = get_stdin("Enter tags to classify your page (comma separated): ")
   feat = get_stdin("Enter filename you want to use as feature (in <images> folder - 2048px x 512px. Leave blank for none): ")
-  feature = "images/#{Time.now.strftime('%Y/%m')}/#{feat}"
+  feature = "#{Time.now.strftime('%Y/%m')}/#{feat}"
   puts feature
   if File.exist?(feature)
 	puts "file does exist"
