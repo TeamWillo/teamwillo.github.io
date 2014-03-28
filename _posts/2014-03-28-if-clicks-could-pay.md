@@ -12,7 +12,7 @@ comments:
 share: 
 ---
 
-*"Team Willo, I know I have seen it somewhere, but i can't quite remember where. ?"* Amazingly, that statement has become a fixture during iour introductions lately. Time after time, our ego and promotion efforts have both been bolstered by that statement, and of course we act nonchalantly, after all everybody in business likes to be known.
+*"Team Willo, I know I have seen it somewhere, but i can't quite remember where."* Amazingly, that statement has become a fixture during iour introductions lately. Time after time, our ego and promotion efforts have both been bolstered by that statement, and of course we act nonchalantly, after all everybody in business likes to be known.
 
 How did we achieve this notoriety? Simple, we engaged a promotional machine, that costs nothing , works night and day, and even provides us with a statistical platform to  which we can apply analysts. Sounds Good.
 
