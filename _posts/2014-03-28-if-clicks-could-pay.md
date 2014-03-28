@@ -6,8 +6,8 @@ category:
 tags: [business]
 image:
   feature: 2014/03/graph.jpg 
-  credit: Winston Wilkins
-  creditlink: 
+  credit: Stats from TeamWillo Youtube Channel since 2010
+  creditlink: http://www.youtube.com/willojnr77
 comments: 
 share: 
 ---
@@ -18,7 +18,7 @@ How did we achieve this notoriety? Simple, we engaged a promotional machine, tha
 
 And just what is this machine, and how can i find it ? That answer is even simpler, it's Youtube. 
 
-Since 2010 [Team Willo's Youtube channel]{http://www.youtube.com/willojnr77} has generated a phenomenal 5.7 million viewers. This, surely, makes it a media of it's own, rivaling most mainstream viewing opportunities (think  local  TV with approx. 100,000 viewers at peak) in impressions and trumping them with world-wide exposure.
+Since 2010 [Team Willo's Youtube channel](http://www.youtube.com/willojnr77) has generated a phenomenal 5.7 million viewers. This, surely, makes it a media of it's own, rivaling most mainstream viewing opportunities (think  local  TV with approx. 100,000 viewers at peak) in impressions and trumping them with world-wide exposure.
 
 Team Willo is aided by a star studded cast in his efforts. The names ring-off like a Sumfest line-up.
 Beenie-man, Cecile, Tifa, are just a few of the artists whose videos, are in Team Willo's portfolio.
@@ -34,6 +34,6 @@ If the internet makes one promise it is "larger numbers" , in that respect it su
 And indeed Team Willo's brand recognition is a reward. Getting 5 million viewers to a spot on the web is no small feat, and in fact, for many a US-based web entrepreneurs a million viewers would automatically translate into bucks, supplied by the system itself (Google ads). Unfortunately, geography and probably genre are against Team Willo who have to be satisfied with notoriety.
 
 **Home Grown Fixes.**
-There are several methods to capitalize on this exposure. The most obvious being commercial tagging and product placement. Where-in you place product in the video, often combined with the former, placing a 30 second commercial in front or back of the video. Team Willo has had success in placing a good branding for "LIME", in [Beenie's Video] {http://youtu.be/JH-9aj6SUNg?t=1m49}, sans the commercial (didn't need it). These marketing opportunities are not yet popular in Jamaica, in time ,they will be.
+There are several methods to capitalize on this exposure. The most obvious being commercial tagging and product placement. Where-in you place product in the video, often combined with the former, placing a 30 second commercial in front or back of the video. Team Willo has had success in placing a good branding for "LIME", in [Beenie's Video](http://youtu.be/JH-9aj6SUNg?t=1m49), sans the commercial (didn't need it). These marketing opportunities are not yet popular in Jamaica, in time ,they will be.
 There now exist many interactive and embedded features that can make a video , a virtual launchpad for promotion and advertising. 
 Hopefully Team Willo maintains the strong presence and local marketeers begin to understand how to utilize these opportunities directly. 
