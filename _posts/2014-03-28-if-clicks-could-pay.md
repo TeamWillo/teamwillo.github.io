@@ -30,10 +30,12 @@ Apart from gross viewing figures, Team Willo is able to extract information on g
 One interesting statistic is that in the last year, Team Willo has been occupied with more corporate endeavors including setting up the new office, and as a result has been off the music scene. The Youtube channel has still been generating 100,000 views per month. As a result it is expected to be at a nice round 6 Million by the end of Summer.
 
 **If Clicks Could Pay.**
+
 If the internet makes one promise it is "larger numbers" , in that respect it surely is fulfilling it's mandate to Team Willo.. The second promise that it makes, however, is where it has fallen short. Apart from large numbers, it "promises", if you get large numbers, there will be large rewards.
 And indeed Team Willo's brand recognition is a reward. Getting 5 million viewers to a spot on the web is no small feat, and in fact, for many a US-based web entrepreneurs a million viewers would automatically translate into bucks, supplied by the system itself (Google ads). Unfortunately, geography and probably genre are against Team Willo who have to be satisfied with notoriety.
 
 **Home Grown Fixes.**
+
 There are several methods to capitalize on this exposure. The most obvious being commercial tagging and product placement. Where-in you place product in the video, often combined with the former, placing a 30 second commercial in front or back of the video. Team Willo has had success in placing a good branding for "LIME", in [Beenie's Video](http://youtu.be/JH-9aj6SUNg?t=1m49), sans the commercial (didn't need it). These marketing opportunities are not yet popular in Jamaica, in time ,they will be.
 There now exist many interactive and embedded features that can make a video , a virtual launchpad for promotion and advertising. 
 Hopefully Team Willo maintains the strong presence and local marketeers begin to understand how to utilize these opportunities directly. 
