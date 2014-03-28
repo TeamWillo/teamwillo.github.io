@@ -27,12 +27,12 @@ market, and used it to craftily promote their presence.
 
  
 Apart from gross viewing figures, Team Willo is able to extract information on geographic viewership , linked-from urls , optimal search combinations and key wording and many other extremely helpful analytic tools. 
-One interesting statistic is that in the last year, Team Willo has been occupied with more corporate endeavors including setting up the new office, and as a result has been off the music scene. The Youtube channel has still been generating 100,000 views per month. As a result it is expected to be at a nice round 6 Million by the end of Summer.  return
+One interesting statistic is that in the last year, Team Willo has been occupied with more corporate endeavors including setting up the new office, and as a result has been off the music scene. The Youtube channel has still been generating 100,000 views per month. As a result it is expected to be at a nice round 6 Million by the end of Summer.   
 
 **If Clicks Could Pay.**
 
 If the internet makes one promise it is "larger numbers" , in that respect it surely is fulfilling it's mandate to Team Willo.. The second promise that it makes, however, is where it has fallen short. Apart from large numbers, it "promises", if you get large numbers, there will be large rewards.
-And indeed Team Willo's brand recognition is a reward. Getting 5 million viewers to a spot on the web is no small feat, and in fact, for many a US-based web entrepreneurs a million viewers would automatically translate into bucks, supplied by the system itself (Google ads). Unfortunately, geography and probably genre are against Team Willo who have to be satisfied with notoriety.  return
+And indeed Team Willo's brand recognition is a reward. Getting 5 million viewers to a spot on the web is no small feat, and in fact, for many a US-based web entrepreneurs a million viewers would automatically translate into bucks, supplied by the system itself (Google ads). Unfortunately, geography and probably genre are against Team Willo who have to be satisfied with notoriety.   
 
 **Home Grown Fixes.**
 
