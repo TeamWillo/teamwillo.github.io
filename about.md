@@ -9,14 +9,15 @@ image:
   feature: texture-feature-02.jpg
   credit: Gareth Cobran (right) of ID Studios, seen here shooting a Tarrus Riley Video
 ---
-### You see it in your head...
-...but how do you get it on TV, the internet, in magazines and on billboards. 
+### You want to make a film...
+...but how do you get it to audiences?
 
-Agencies are expensive and The creatives don't get that you're running a business.
+You need financing strategy, market requirements, logistics and production expertise.
 
-### We are a group of creatives that made it our business to understand your business. 
-We offer access to the network of the best media practitioners out there, by acting as interpreters of business-speak, creative speak and technical speak.
-In the end, you get what you want, and creatives get to be creatives
+Document Filing, Proposal Writing and Loan Applications excite us. Sounds weird, but it comes with the thrill of knowing that your awesome production gets off the ground.
+
+### How do we do it?
+We match your concept with entities that care enough about your message to get it on the screen. We believe in the power of the right team, and so do your prospective investors. If you have gaps in your team we can also help you fill it from our network of production professionals.
 
 ### Check out our ad.
 
@@ -28,7 +29,7 @@ In the end, you get what you want, and creatives get to be creatives
 
 #### Corporate Strategy and Product Development
 
-![Winston Wilkins]({{ site.url }}/images/2013/08/winston.jpg) 
+![Winston Wilkins]({{ site.url }}/images/2013/08/winston.jpg)
 {: .team-image-pull-left}
 
 Winston has training in Engineering and Post Graduate Social Entrepreneurship, but he is best known for his Media Production and Illustration skills. Winston now develops media products that solves problems in various industries.
@@ -38,7 +39,7 @@ Winston has training in Engineering and Post Graduate Social Entrepreneurship, b
 
 #### Corporate Sales, Marketing and Business Development
 
-![Tony Thompson]({{ site.url }}/images/2013/08/tony.jpg)  
+![Tony Thompson]({{ site.url }}/images/2013/08/tony.jpg)
 {: .team-image-pull-left}
 
 Bsc. (Math), Post-Graduate Diplomas in Television Production and Broadcast. Tony has over 25 yrs experience in International Multimedia Project Management and has brought his know-how to Team Willo in Marketing and Business Strategy.
@@ -46,23 +47,23 @@ Bsc. (Math), Post-Graduate Diplomas in Television Production and Broadcast. Tony
 
 ### Wesley Wilkins
 
-#### Music Division Operations and Product Development 
+#### Music Division Operations and Product Development
 
-![Wesley Wilkins]({{ site.url }}/images/2013/11/wesley.jpg) 
+![Wesley Wilkins]({{ site.url }}/images/2013/11/wesley.jpg)
 {: .team-image-pull-left}
 
 
-Wesley brings music development experience to the team and has worked with renowned recording artists such as Buju Banton, Tony Rebel, Sizzla Colonji, and many others. He has won awards for his work and has written and composed songs for prominent albums. Wesley is responsible for creating products for our music distribution channels
+Wesley brings music development experience to the team and has worked with renowned recording artists such as Buju Banton, Tony Rebel, Sizzla Colonji, and many others. He has won awards for his work and has written and composed songs for prominent albums. Wesley is responsible for creating products for our music distribution channels.
 {: .clearfix}
 
 ### Janelle Dyer
 
 #### Entertainment Sales and Relations
 
-![Janelle Dyer]({{ site.url }}/images/2013/08/janelle.jpg) 
+![Janelle Dyer]({{ site.url }}/images/2013/08/janelle.jpg)
 {: .team-image-pull-left}
 
-A long time collaborator with Team Willo Productions, Janelle has been responsible for maintaining client relationships with the biggest players in the Caribbean Entertainment Industry. She is currently pursuing a film degree at Full Sail University
+A long time collaborator with Team Willo Productions, Janelle has been responsible for maintaining client relationships with the biggest players in the Caribbean Entertainment Industry. She is currently pursuing a film degree at Full Sail University.
 {: .clearfix}
 
 
